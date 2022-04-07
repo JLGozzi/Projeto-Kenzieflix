@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: #121214;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif; 
 }
@@ -7,38 +7,43 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0px;
  
 }
 .box{
-    background-color: #121214;
     width: 1280px;
     height: 720px;
     border-radius: 12px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:start;
     align-items: center;
+    gap: 30px;
 
 }
 .box .logo{
     width: 229px;
     height: 68px;
+    margin-bottom: 100px;
 }
 
 .box .title{
-    font-size: 32px
+    font-size: 32px;
+    font-weight: 900px;
+    margin-bottom: 50px;
 }
 .box .box-list{
     display: flex;
     width: 718px;
     height: 194px;
     margin: 0 auto;
-    justify-content:space-between
+    justify-content:space-between;
 }
 .box .box-list .box-avatar{
     width: 160px;
@@ -98,6 +103,7 @@ body{
     border: 1.5px solid #d3d2d2;
     font-size: 16px;
     font-weight: 500px;
+    margin-top: 20px;
 }
 .container .box button:hover{
     background-color: #d3d2d2;
